@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Test Automation Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .test-step {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .pass {
+            background-color: #e8f5e9;
+            border-left: 5px solid #4caf50;
+        }
+        .step-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .expected-result {
+            color: #666;
+            font-style: italic;
+        }
+        .actual-result {
+            margin-top: 10px;
+        }
+        .summary {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>YouTube Test Automation Report</h1>
+    <p><strong>Date:</strong> July 16, 2025</p>
+    <p><strong>Website:</strong> https://www.youtube.com/</p>
+    
+    <div class="test-step pass">
+        <div class="step-header">Step 1: Navigate to YouTube Homepage</div>
+        <div class="expected-result">Expected: Homepage loads</div>
+        <div class="actual-result">✅ Homepage successfully loaded</div>
+    </div>
+
+    <div class="test-step pass">
+        <div class="step-header">Step 2: Search for "Errors Overflow"</div>
+        <div class="expected-result">Expected: Redirects to search results page</div>
+        <div class="actual-result">✅ Successfully redirected to search results page with URL containing "search_query=Errors+Overflow"</div>
+    </div>
+
+    <div class="test-step pass">
+        <div class="step-header">Step 3: Verify Text and Click First Channel</div>
+        <div class="expected-result">Expected: Text "Errors Overflow" is visible on the page</div>
+        <div class="actual-result">✅ Text verified and successfully clicked on first Errors Overflow channel</div>
+    </div>
+
+    <div class="test-step pass">
+        <div class="step-header">Step 4: Close Browser</div>
+        <div class="expected-result">Expected: Browser closes successfully</div>
+        <div class="actual-result">✅ Browser closed successfully</div>
+    </div>
+
+    <div class="summary">
+        <h2>Test Summary</h2>
+        <p>Total Steps: 4</p>
+        <p>Passed: 4</p>
+        <p>Failed: 0</p>
+        <p>Test Status: ✅ PASSED</p>
+        <p><strong>Screenshot saved:</strong> channel_page-2025-07-15T21-29-34-044Z.png</p>
+    </div>
+</body>
+</html>
