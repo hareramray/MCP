@@ -50,7 +50,6 @@ The automation generates an HTML report (`test_report.html`) that includes:
 - Detailed step-by-step execution results
 - Expected vs. actual outcomes
 - Test execution summary
-- Screenshots of key steps
 
 ## Screenshots
 
